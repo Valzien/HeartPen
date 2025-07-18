@@ -55,11 +55,9 @@ Silakan fork repository ini, kembangkan fitur baru, atau perbaiki bug, lalu ajuk
 
 ## ⚠️ Disclaimer
 HeartPen dibuat untuk tujuan edukasi dan pengembangan.
-Pemilik repository tidak bertanggung jawab atas penyalahgunaan kode ini.
+Jangan menyalahgunakan kode ini!
 
 ## 📜 License
 This project is licensed under the **Apache License 2.0** – lihat file [LICENSE](./LICENSE) untuk detail.  
 
 © 2025 **Valzien**
-
-© 2025 Valzien

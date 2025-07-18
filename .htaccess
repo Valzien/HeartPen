@@ -1,0 +1,25 @@
+RewriteEngine On
+
+# Redirect /index ke /
+RewriteRule ^index/?$ / [R=301,L]
+
+# Utamakan index.php
+DirectoryIndex index.php index.html index.htm
+
+# Hilangkan .php dari URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# Clean URL: /@username/slug -> read.php?user=username&baca=slug
+RewriteRule ^@([^/]+)/([^/]+)/?$ read.php?user=$1&baca=$2 [L,QSA]
+
+# Kalau file / folder ga ada, lempar ke index.php (untuk dynamic router future)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Handle error InfinityFree
+ErrorDocument 403 https://errors.infinityfree.net/errors/403/
+ErrorDocument 404 https://errors.infinityfree.net/errors/404/
+ErrorDocument 500 https://errors.infinityfree.net/errors/500/

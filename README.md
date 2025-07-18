@@ -32,7 +32,7 @@ Website ini sudah **launching publik** dan bersifat open source untuk tujuan edu
 1. Clone repository ini:
 ```bash
 git clone https://github.com/Valzien/HeartPen.git
-```
+
 Pindahkan ke server lokal (XAMPP / Laragon / dsb).
 
 Taruh folder di dalam htdocs (untuk XAMPP).
@@ -40,6 +40,7 @@ Taruh folder di dalam htdocs (untuk XAMPP).
 Buka di browser:
 
 http://localhost/HeartPen
+```
 
 ## 📸 Screenshots
 

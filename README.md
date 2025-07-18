@@ -32,26 +32,27 @@ Website ini sudah **launching publik** dan bersifat open source untuk tujuan edu
 1. Clone repository ini:
 ```bash
 git clone https://github.com/Valzien/HeartPen.git
+```
 Pindahkan ke server lokal (XAMPP / Laragon / dsb).
 
 Taruh folder di dalam htdocs (untuk XAMPP).
 
 Buka di browser:
 
-arduino
-Copy
-Edit
 http://localhost/HeartPen
-📸 Screenshots
+
+## 📸 Screenshots
+
 | Homepage | Post Detail |
 |----------|-------------|
 | ![Homepage](./docs/screenshot-home.png) | ![Post Detail](./docs/screenshot-post.png) |
 
-🙌 Contributing
+
+## 🙌 Contributing
 Kontribusi sangat terbuka!
 Silakan fork repository ini, kembangkan fitur baru, atau perbaiki bug, lalu ajukan pull request.
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 HeartPen dibuat untuk tujuan edukasi dan pengembangan.
 Pemilik repository tidak bertanggung jawab atas penyalahgunaan kode ini.
 
